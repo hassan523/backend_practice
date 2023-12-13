@@ -1,0 +1,54 @@
+/* styles/Comment.module.css */
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.user img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.replies {
+  margin-top: 10px;
+}
+
+.reply {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.reply p {
+  margin: 0;
+}
+
+.reply .user img {
+  margin-right: 5px;
+}
+
+.replyInput {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.replyInput input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.replyInput button {
+  cursor: pointer;
+}

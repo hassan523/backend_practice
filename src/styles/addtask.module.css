@@ -1,0 +1,42 @@
+.app_container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task_list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .signup_container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup_form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form_group {
+    margin-bottom: 15px;
+  }
+  

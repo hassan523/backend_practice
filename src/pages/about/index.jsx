@@ -73,8 +73,8 @@ const index = () => {
           <select
             onChange={(e) => setUserID(e.target.value)}
             className="rounded border border-dark focus:outline-none">
-            <option value="" disabled>
-              Update Status
+            <option value="">
+              Check Tables
             </option>
             {all_Users?.map((user, i) => (
               <option value={user._id} key={i}>
